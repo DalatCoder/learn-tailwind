@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 .card{
-  @apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
+  @apply transition cursor-pointer duration-300 rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
 }
 
 .badge{
-  @apply absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+  @apply flex items-center absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
 }
 
 .btn{

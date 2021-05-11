@@ -22058,6 +22058,9 @@ video {
 }
 
 .card{
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  cursor: pointer;
+  transition-duration: 300ms;
   border-radius: 0.25rem;
   --bg-opacity: 1;
   background-color: #fff;
@@ -22071,6 +22074,8 @@ video {
 }
 
 .badge{
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 0;
   margin-left: 0.5rem;
