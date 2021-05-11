@@ -6,7 +6,7 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     debugScreens: {
-      position: ['top', 'left']
+      // position: ['top', 'left']
     },
     extend: {
       fontFamily: {
@@ -21,6 +21,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('tailwindcss-debug-screens')
+    // require('tailwindcss-debug-screens')
   ],
 }
