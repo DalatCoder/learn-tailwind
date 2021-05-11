@@ -5,7 +5,7 @@
 @layer base {
   @font-face {
     font-family: Oswald;
-    src: url(/fonts/Oswald/Oswald-Bold.ttf) format("truetype");
+    src: url(../fonts/Oswald/Oswald-Bold.ttf) format("truetype");
   }
 
   body {
@@ -44,10 +44,10 @@
   }
 
   .btn-gray {
-    @apply bg-gray-300 hover:bg-gray-400 dark:bg-gray-400 dark:hover:bg-gray-500;
+    @apply bg-gray-300 hover:bg-gray-400 dark:bg-gray-500 dark:hover:bg-gray-600;
   }
 
   .btn-indigo {
-    @apply bg-indigo-300 hover:bg-indigo-400 dark:bg-indigo-400 dark:hover:bg-indigo-500;
+    @apply bg-indigo-300 hover:bg-indigo-400 dark:bg-indigo-500 dark:hover:bg-indigo-600;
   }
 }
